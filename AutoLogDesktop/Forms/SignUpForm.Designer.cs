@@ -72,11 +72,11 @@ namespace AutoLogDesktop.Forms
             // BackButton
             // 
             this.BackButton.AutoSize = true;
-            this.BackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BackButton.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BackButton.ForeColor = System.Drawing.Color.White;
             this.BackButton.Location = new System.Drawing.Point(3, 2);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(88, 29);
+            this.BackButton.Size = new System.Drawing.Size(61, 21);
             this.BackButton.TabIndex = 24;
             this.BackButton.Text = "Назад";
             this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
@@ -84,11 +84,11 @@ namespace AutoLogDesktop.Forms
             // CloseLabel
             // 
             this.CloseLabel.AutoSize = true;
-            this.CloseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CloseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CloseLabel.ForeColor = System.Drawing.Color.White;
             this.CloseLabel.Location = new System.Drawing.Point(563, 2);
             this.CloseLabel.Name = "CloseLabel";
-            this.CloseLabel.Size = new System.Drawing.Size(31, 29);
+            this.CloseLabel.Size = new System.Drawing.Size(25, 24);
             this.CloseLabel.TabIndex = 1;
             this.CloseLabel.Text = "X";
             this.CloseLabel.Click += new System.EventHandler(this.CloseLabel_Click_1);
@@ -96,88 +96,99 @@ namespace AutoLogDesktop.Forms
             // PasswordLabelSignUp
             // 
             this.PasswordLabelSignUp.AutoSize = true;
-            this.PasswordLabelSignUp.Location = new System.Drawing.Point(20, 367);
+            this.PasswordLabelSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordLabelSignUp.Location = new System.Drawing.Point(20, 351);
             this.PasswordLabelSignUp.Name = "PasswordLabelSignUp";
-            this.PasswordLabelSignUp.Size = new System.Drawing.Size(71, 20);
+            this.PasswordLabelSignUp.Size = new System.Drawing.Size(80, 21);
             this.PasswordLabelSignUp.TabIndex = 15;
             this.PasswordLabelSignUp.Text = "Пароль:";
             // 
             // PasswordTextBoxSignUp
             // 
-            this.PasswordTextBoxSignUp.Location = new System.Drawing.Point(195, 367);
+            this.PasswordTextBoxSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBoxSignUp.Location = new System.Drawing.Point(195, 348);
             this.PasswordTextBoxSignUp.Multiline = true;
             this.PasswordTextBoxSignUp.Name = "PasswordTextBoxSignUp";
-            this.PasswordTextBoxSignUp.Size = new System.Drawing.Size(358, 26);
+            this.PasswordTextBoxSignUp.Size = new System.Drawing.Size(358, 40);
             this.PasswordTextBoxSignUp.TabIndex = 13;
             // 
             // LoginTextBoxSignUp
             // 
-            this.LoginTextBoxSignUp.Location = new System.Drawing.Point(195, 300);
+            this.LoginTextBoxSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBoxSignUp.Location = new System.Drawing.Point(195, 297);
             this.LoginTextBoxSignUp.Multiline = true;
             this.LoginTextBoxSignUp.Name = "LoginTextBoxSignUp";
-            this.LoginTextBoxSignUp.Size = new System.Drawing.Size(358, 26);
+            this.LoginTextBoxSignUp.Size = new System.Drawing.Size(358, 40);
             this.LoginTextBoxSignUp.TabIndex = 14;
             // 
             // LoginLabelSingUp
             // 
             this.LoginLabelSingUp.AutoSize = true;
-            this.LoginLabelSingUp.Location = new System.Drawing.Point(19, 300);
+            this.LoginLabelSingUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginLabelSingUp.Location = new System.Drawing.Point(20, 300);
             this.LoginLabelSingUp.Name = "LoginLabelSingUp";
-            this.LoginLabelSingUp.Size = new System.Drawing.Size(59, 20);
+            this.LoginLabelSingUp.Size = new System.Drawing.Size(67, 21);
             this.LoginLabelSingUp.TabIndex = 12;
             this.LoginLabelSingUp.Text = "Логин:";
             // 
             // PasswordConfirmLabelSignUp
             // 
             this.PasswordConfirmLabelSignUp.AutoSize = true;
-            this.PasswordConfirmLabelSignUp.Location = new System.Drawing.Point(20, 428);
+            this.PasswordConfirmLabelSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordConfirmLabelSignUp.Location = new System.Drawing.Point(20, 412);
             this.PasswordConfirmLabelSignUp.Name = "PasswordConfirmLabelSignUp";
-            this.PasswordConfirmLabelSignUp.Size = new System.Drawing.Size(156, 20);
+            this.PasswordConfirmLabelSignUp.Size = new System.Drawing.Size(176, 21);
             this.PasswordConfirmLabelSignUp.TabIndex = 18;
             this.PasswordConfirmLabelSignUp.Text = "Повторить пароль:";
             // 
             // PasswordConfirmTextBoxSignUp
             // 
-            this.PasswordConfirmTextBoxSignUp.Location = new System.Drawing.Point(195, 428);
+            this.PasswordConfirmTextBoxSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordConfirmTextBoxSignUp.Location = new System.Drawing.Point(195, 409);
             this.PasswordConfirmTextBoxSignUp.Multiline = true;
             this.PasswordConfirmTextBoxSignUp.Name = "PasswordConfirmTextBoxSignUp";
-            this.PasswordConfirmTextBoxSignUp.Size = new System.Drawing.Size(358, 26);
+            this.PasswordConfirmTextBoxSignUp.Size = new System.Drawing.Size(358, 40);
             this.PasswordConfirmTextBoxSignUp.TabIndex = 17;
             // 
             // PasswordConfirmCheckBoxSignUp
             // 
             this.PasswordConfirmCheckBoxSignUp.AutoSize = true;
-            this.PasswordConfirmCheckBoxSignUp.Location = new System.Drawing.Point(386, 477);
+            this.PasswordConfirmCheckBoxSignUp.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordConfirmCheckBoxSignUp.Location = new System.Drawing.Point(365, 455);
             this.PasswordConfirmCheckBoxSignUp.Name = "PasswordConfirmCheckBoxSignUp";
-            this.PasswordConfirmCheckBoxSignUp.Size = new System.Drawing.Size(167, 24);
+            this.PasswordConfirmCheckBoxSignUp.Size = new System.Drawing.Size(150, 22);
             this.PasswordConfirmCheckBoxSignUp.TabIndex = 19;
             this.PasswordConfirmCheckBoxSignUp.Text = "Показать пароли";
             this.PasswordConfirmCheckBoxSignUp.UseVisualStyleBackColor = true;
+            this.PasswordConfirmCheckBoxSignUp.CheckedChanged += new System.EventHandler(this.PasswordConfirmCheckBoxSignUp_CheckedChanged);
             // 
             // OrganizationLabelSignUp
             // 
             this.OrganizationLabelSignUp.AutoSize = true;
+            this.OrganizationLabelSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.OrganizationLabelSignUp.Location = new System.Drawing.Point(20, 253);
             this.OrganizationLabelSignUp.Name = "OrganizationLabelSignUp";
-            this.OrganizationLabelSignUp.Size = new System.Drawing.Size(112, 20);
+            this.OrganizationLabelSignUp.Size = new System.Drawing.Size(128, 21);
             this.OrganizationLabelSignUp.TabIndex = 20;
             this.OrganizationLabelSignUp.Text = "Организация:";
             // 
             // OrganizationTextBoxSignUp
             // 
+            this.OrganizationTextBoxSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.OrganizationTextBoxSignUp.Location = new System.Drawing.Point(195, 247);
             this.OrganizationTextBoxSignUp.Multiline = true;
             this.OrganizationTextBoxSignUp.Name = "OrganizationTextBoxSignUp";
-            this.OrganizationTextBoxSignUp.Size = new System.Drawing.Size(358, 26);
+            this.OrganizationTextBoxSignUp.Size = new System.Drawing.Size(358, 40);
             this.OrganizationTextBoxSignUp.TabIndex = 21;
             // 
             // SignUpButtonSignUp
             // 
+            this.SignUpButtonSignUp.Font = new System.Drawing.Font("Garamond", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SignUpButtonSignUp.Location = new System.Drawing.Point(155, 533);
             this.SignUpButtonSignUp.Name = "SignUpButtonSignUp";
             this.SignUpButtonSignUp.Size = new System.Drawing.Size(241, 55);
             this.SignUpButtonSignUp.TabIndex = 22;
-            this.SignUpButtonSignUp.Text = "Регистрация";
+            this.SignUpButtonSignUp.Text = "Регистрация организации";
             this.SignUpButtonSignUp.UseVisualStyleBackColor = true;
             this.SignUpButtonSignUp.Click += new System.EventHandler(this.SignUpButtonSignUp_Click);
             // 
@@ -202,7 +213,7 @@ namespace AutoLogDesktop.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SignUpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SignUp";
+            this.Text = "SignUpForm";
             ((System.ComponentModel.ISupportInitialize)(this.AppPic)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

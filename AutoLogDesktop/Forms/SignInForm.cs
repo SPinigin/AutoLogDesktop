@@ -1,13 +1,6 @@
-﻿using AutoLogDesktop.Forms;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
+using AutoLogDesktop.Forms;
 
 namespace AutoLogDesktop
 {
@@ -32,7 +25,15 @@ namespace AutoLogDesktop
 
         private void PasswordCheckBoxSignIn_CheckedChanged(object sender, EventArgs e)
         {
-            PasswordTextBoxSignIn.PasswordChar = PasswordCheckBoxSignIn.Checked ? '\0' : '*';
+            if (PasswordCheckBoxSignIn.Checked)
+            {
+                PasswordTextBoxSignIn.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                PasswordTextBoxSignIn.UseSystemPasswordChar = false;
+            }
         }
+
     }
 }

@@ -31,7 +31,7 @@ namespace AutoLogDesktop
         {
             this.components = new System.ComponentModel.Container();
             this.AppName = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.LoadPanel = new System.Windows.Forms.Panel();
             this.LoadingPanel = new System.Windows.Forms.Panel();
             this.LoadingTimer = new System.Windows.Forms.Timer(this.components);
             this.AppPic = new System.Windows.Forms.PictureBox();
@@ -40,28 +40,25 @@ namespace AutoLogDesktop
             // 
             // AppName
             // 
-            this.AppName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AppName.AutoSize = true;
-            this.AppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AppName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AppName.Font = new System.Drawing.Font("Garamond", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AppName.ForeColor = System.Drawing.Color.Black;
-            this.AppName.Location = new System.Drawing.Point(20, 290);
+            this.AppName.Location = new System.Drawing.Point(0, 0);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(551, 82);
+            this.AppName.Size = new System.Drawing.Size(600, 600);
             this.AppName.TabIndex = 0;
             this.AppName.Text = "АвтоЛогистика";
-            this.AppName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.AppName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // LoadPanel
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 570);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(600, 30);
-            this.panel1.TabIndex = 1;
-            this.panel1.UseWaitCursor = true;
+            this.LoadPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.LoadPanel.Location = new System.Drawing.Point(0, 570);
+            this.LoadPanel.Name = "LoadPanel";
+            this.LoadPanel.Size = new System.Drawing.Size(600, 30);
+            this.LoadPanel.TabIndex = 1;
+            this.LoadPanel.UseWaitCursor = true;
             // 
             // LoadingPanel
             // 
@@ -97,7 +94,7 @@ namespace AutoLogDesktop
             this.ClientSize = new System.Drawing.Size(600, 600);
             this.Controls.Add(this.LoadingPanel);
             this.Controls.Add(this.AppPic);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.LoadPanel);
             this.Controls.Add(this.AppName);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -106,14 +103,13 @@ namespace AutoLogDesktop
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.AppPic)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Label AppName;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel LoadPanel;
         private System.Windows.Forms.Panel LoadingPanel;
         private System.Windows.Forms.PictureBox AppPic;
         private System.Windows.Forms.Timer LoadingTimer;
